@@ -1,0 +1,93 @@
+/* General Styles */
+.top-bar {
+    
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;      /* Center vertically */
+}
+
+.top-bar img {
+    margin: 0 8px; /* space between flags */
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header */
+header {
+    background: #f8d7da; /* light red */
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #b02a37;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.btn {
+    background: #b02a37;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #a02530;
+}
+
+/* Sections */
+.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section h2 {
+    color: #b02a37;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background: #f8d7da;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
